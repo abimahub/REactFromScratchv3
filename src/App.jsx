@@ -1,10 +1,13 @@
 import React from "react";
 
-const App = () =>{
+function App() {
     return (
+        <>
         <h1>
             Hello world! I am using React
         </h1>
+        <p>trials</p>
+        </>
     )
 }
 
