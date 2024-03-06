@@ -1,0 +1,17 @@
+body {
+    background-color: #fff;
+    color: cadetblue;
+
+}
+section {
+    background-color: azure;
+}
+h1 {
+    color: navy;
+    font-size: larger;
+    font-weight: 700;
+}
+p {
+    color: cadetblue;
+    font-size: medium;
+}

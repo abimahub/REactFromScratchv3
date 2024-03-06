@@ -2,7 +2,7 @@
   "name": "reactfromscratchv3",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.jsx",
   "scripts": {
     "start": "webpack-dev-server .",
     "build": "webpack .",
@@ -42,8 +42,11 @@
     "webpack-dev-server": "^5.0.2"
   },
   "dependencies": {
+    "css-loader": "^6.10.0",
+    "postcss-loader": "^8.1.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.4"
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix",
